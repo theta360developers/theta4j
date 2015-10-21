@@ -3,55 +3,12 @@
 ---
 @charset "utf-8";
 
-// Common
+// Variables
 
-$logo-size:        90px;
-$width:            1000px;
-$space:            10px;
-$text-color:       #000;
-$light-text-color: #fff;
+$content-width:    1000px;
+$spacing-unit:     10px;
+$text-color:       #333;
 
-// Header
-
-$background-color: #404040;
-
-body {
-    margin: 0;
-}
-
-header {
-    background: $background-color;
-
-    .wrapper {
-        width: $width;
-        height: $logo-size;
-        margin: 0 auto;
-        padding: $space 0px;
-        background: url(../theta-duke.svg) no-repeat $space $space;
-        color: $light-text-color;
-
-        h1 {
-            margin: 6px 0px 0px $logo-size+$space*2;
-            font-size: 32px;
-            font-family: 'Roboto Mono', monospace;
-        }
-
-        p {
-            margin: 12px 0px 0px $logo-size+$space*2;
-            font-size: 16px;
-            font-family: 'Roboto', sans-serif;
-        }
-    }
-}
-
-#page-content {
-    width: $width - $space * 2;
-    margin-left:auto;
-    margin-right: auto;
-    padding: 0px $space;
-    color: $text-color;
-
-    >* {
-        margin-left: 0;
-    }
-}
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
