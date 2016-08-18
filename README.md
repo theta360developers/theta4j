@@ -43,3 +43,6 @@ This software contains works which are distributed under the [Apache License, Ve
 - [Apache Commons Lang](https://github.com/apache/commons-lang/blob/master/NOTICE.txt)
 - [SLF4J](http://www.slf4j.org/license.html)
 
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/PTP-API-wrapper-for-Java)
+
+
